@@ -56,6 +56,8 @@ The landing zone represents the initial environment setup where all resources wi
 
 + Management Group: Organizational structure for managing Azure resources. It helps in applying policies and governance across subscriptions.
 
+[image]: https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/images/mission-critical-architecture-landing-zone-high-res.png#lightbox
+
 **Subscriptions:**
 
 Multiple subscriptions can be created based on the needs for isolation, billing, and resource separation. For instance:
@@ -154,5 +156,5 @@ Application security testing for identifying vulnerabilities in the code.
 
 + Helm & ArgoCD: 
     + Used for managing Kubernetes application deployments, especially Helm charts and GitOps-based deployments through ArgoCD.
-    
+
 This architecture ensures a robust, scalable, and secure microservices-based application deployment within Azure's cloud infrastructure. It integrates various DevSecOps tools for continuous monitoring, security checks, and efficient deployment processes. Each tool contributes to different phases of the software development lifecycle, aiming to ensure quality, security, and compliance.
