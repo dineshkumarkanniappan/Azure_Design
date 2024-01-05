@@ -36,6 +36,9 @@ Store build artifacts and dependencies.
     + Manual Approval Gates: Ensuring controlled releases in the deployment process.
 
 
+![Diagram](./source/Deployment_Architecture.jpeg)
+
+
 ## Architecture
 
 **AKS PCI Baseline Architecture**
@@ -79,6 +82,3 @@ The architecture consists of the following components.
 **Application Release Pipeline & Jobs**
 ![alt text](https://miro.medium.com/v2/resize:fit:828/format:webp/1*KarJfifaVtnaR6PDyiEb-A.jpeg)
 
-**Security Scanning**
-
-![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--ANE7aULC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cxy0j26mqjn17vqwgqyw.png)
