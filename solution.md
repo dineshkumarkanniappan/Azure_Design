@@ -37,7 +37,7 @@ Store build artifacts and dependencies.
 
 
 ## Architecture
-
+**Baseline**
 ![alt image](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-microservices/images/aks.svg)
 
 **Workflow**
@@ -64,7 +64,11 @@ The architecture consists of the following components.
 
 8. Azure Monitor. Azure Monitor collects and stores metrics and logs, application telemetry, and platform metrics for the Azure services. Use this data to monitor the application, set up alerts, dashboards, and perform root cause analysis of failures. Azure Monitor integrates with AKS to collect metrics from controllers, nodes, and containers.
 
-**Application Release**
+**Deployment Workflow**
+![alt text](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/media/aks-cicd-azure-pipelines-architecture.svg#lightbox)
+
+
+**Application Release Pipeline & Jobs**
 ![alt text](https://miro.medium.com/v2/resize:fit:828/format:webp/1*KarJfifaVtnaR6PDyiEb-A.jpeg)
 
 **Security Scanning**
