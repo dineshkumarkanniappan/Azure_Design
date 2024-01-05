@@ -18,30 +18,10 @@ Application Architecture
  
 
 DevSecOps Tools (any tools based on working experience)
-   - Trivy
-   - Docker Scout
-   - ACR Defender
-   - Aqua
-
-CI (Continuous Integration)
-   - Azure DevOps
-   - Jenkins
-
-Code quality
-   - Sonarqube
-   - Checkmarx
-
-Artifacts Server
-   - Azure Artifact
-
-Security Check
-   - Microsoft cloud security benchmark
-       - Control
-       - Baseline
-       
-CD (Continuous delivery/deployment)
-   - Azure Devops
-   - Helm
-   - ArgoCD
+  +  CI (Continuous Integration)
+  +  Code quality
+  +  Artifacts Server
+  +  Security Check  
+  +  CD (Continuous delivery/deployment)
 
 ---
