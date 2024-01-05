@@ -180,9 +180,11 @@ Store build artifacts and dependencies.
 
 
 **Deployment Workflow**
+
 ![alt text](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/media/aks-cicd-azure-pipelines-architecture.svg#lightbox)
 
 
 **DevOps Pipeline & Jobs**
+
 ![alt text](https://miro.medium.com/v2/resize:fit:828/format:webp/1*KarJfifaVtnaR6PDyiEb-A.jpeg)
 
