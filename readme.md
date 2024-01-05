@@ -56,8 +56,20 @@ The landing zone represents the initial environment setup where all resources wi
 
 + Management Group: Organizational structure for managing Azure resources. It helps in applying policies and governance across subscriptions.
 
-![alt text](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks-mission-critical/images/mission-critical-architecture-landing-zone-high-res.png#lightbox)
+![alt text](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/media/ns-arch-cust-expanded.svg#lightbox)
 
+| Landing zone (management group) |	Purpose or use |
+| --- | --- |
+| Corp	| The dedicated management group for corporate landing zones. This group is for workloads that require connectivity or hybrid connectivity with the corporate network via the hub in the connectivity subscription. |
+| Online |	The dedicated management group for online landing zones. This group is for workloads that might require direct internet inbound/outbound connectivity or for workloads that might not require a virtual network. |
+| Sandbox	| The dedicated management group for subscriptions that will only be used for testing and exploration by an organization. These subscriptions will be securely disconnected from the corporate and online landing zones. Sandboxes also have a less restrictive set of policies assigned to enable testing, exploration, and configuration of Azure services. |
+
+**Sample** 
+![alt text](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/media/alz-tailor-hierarchy-default.png)
+
+The following diagram shows a tailored Azure landing zone hierarchy. It uses examples from the preceding diagram.
+
+![alt text](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/media/alz-tailor-hierarchy-2-additional.png)
 **Subscriptions:**
 
 Multiple subscriptions can be created based on the needs for isolation, billing, and resource separation. For instance:
