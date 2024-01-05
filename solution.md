@@ -63,3 +63,10 @@ The architecture consists of the following components.
 7. Helm. Helm is a package manager for Kubernetes, a way to bundle and generalize Kubernetes objects into a single unit that can be published, deployed, versioned, and updated.
 
 8. Azure Monitor. Azure Monitor collects and stores metrics and logs, application telemetry, and platform metrics for the Azure services. Use this data to monitor the application, set up alerts, dashboards, and perform root cause analysis of failures. Azure Monitor integrates with AKS to collect metrics from controllers, nodes, and containers.
+
+**Application Release**
+![alt text](https://miro.medium.com/v2/resize:fit:828/format:webp/1*KarJfifaVtnaR6PDyiEb-A.jpeg)
+
+**Security Scanning**
+
+![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--ANE7aULC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cxy0j26mqjn17vqwgqyw.png)
