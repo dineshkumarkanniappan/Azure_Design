@@ -56,6 +56,7 @@ The landing zone represents the initial environment setup where all resources wi
 
 + Management Group: Organizational structure for managing Azure resources. It helps in applying policies and governance across subscriptions.
 
+**Sample**
 ![alt text](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/media/ns-arch-cust-expanded.svg#lightbox)
 
 | Landing zone (management group) |	Purpose or use |
