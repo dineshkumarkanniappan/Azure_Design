@@ -24,7 +24,6 @@ An application landing zone is a subscription for hosting an application. You pr
 **Sample** 
 ![alt text](./source/management_group.png)
 
-
 **Subscriptions:**
 
 Multiple subscriptions can be created based on the needs for isolation, billing, and resource separation. For instance:
@@ -109,16 +108,11 @@ Store build artifacts and dependencies.
 
 ![Diagram](./source/Deployment_Architecture.jpeg)
 
-
-## Architecture
-
 **AKS PCI Baseline Architecture**
 
 ![alt text](https://camo.githubusercontent.com/bff2c59f8c39ff5fdde854e92f22bf6cb8be96da065fa0c6fe8c540b5400e6b0/68747470733a2f2f6c6561726e2e6d6963726f736f66742e636f6d2f617a7572652f6172636869746563747572652f7265666572656e63652d617263686974656374757265732f636f6e7461696e6572732f616b732f696d616765732f7365637572652d626173656c696e652d6172636869746563747572652e737667)
 
 [PCI Baseline](https://github.com/mspnp/aks-baseline)
-
-
 **Deployment Workflow**
 
 ![alt text](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/media/aks-cicd-azure-pipelines-architecture.svg#lightbox)
