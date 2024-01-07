@@ -60,12 +60,12 @@ Utilizing tools like Netflix Eureka or Consul for service registration and disco
 **Code Quality & Static Analysis:**
 + SonarQube:
     + Performs static code analysis to enhance code quality.
-+ Checkmarx:
-Application security testing for identifying vulnerabilities in the code.
-    + Artifact Management:
+
+**Artifact Management:**
 
 + Azure Artifacts:
     + Repository to store and manage application artifacts, dependencies, and packages.
+
 **Security Checks & Compliance:**
 + Microsoft Cloud Security Benchmark:
     + Offers best practices and guidelines for securing Azure resources.
