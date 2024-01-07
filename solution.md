@@ -20,11 +20,9 @@ A platform landing zone is a subscription that provides shared services (identit
 An application landing zone is a subscription for hosting an application. You pre-provision application landing zones through code and use management groups to assign policy controls to them. In the conceptual architecture (see figure 1), the "Landing zone A1 subscription" and "Landing zone A2 subscription" represent two different application landing zones. The conceptual architecture shows only the "Landing zone A2 subscription" in detail. It depicts representative resources and policies applied to the application landing zone.
 
 **Sample** 
-![alt text](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/media/alz-tailor-hierarchy-default.png)
+![alt text](./source/management_group.png)
 
-The following diagram shows a tailored Azure landing zone hierarchy. It uses examples from the preceding diagram.
 
-![alt text](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/media/alz-tailor-hierarchy-2-additional.png)
 **Subscriptions:**
 
 Multiple subscriptions can be created based on the needs for isolation, billing, and resource separation. For instance:
