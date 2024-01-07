@@ -24,15 +24,9 @@ An application landing zone is a subscription for hosting an application. You pr
 **Sample** 
 ![alt text](./source/management_group.png)
 
-
-**Deployment Workflow**
-
-![Deployment Workflow](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/media/aks-cicd-azure-pipelines-architecture.svg#lightbox)
-
 **AKS Private Cluster**
 
 ![AKS Private Cluster](./source/AKS-private-cluster.jpg)
-
 
 **AKS PCI Baseline Architecture**
 
@@ -40,3 +34,6 @@ An application landing zone is a subscription for hosting an application. You pr
 
 [PCI Baseline](https://github.com/mspnp/aks-baseline)
 
+**Deployment Workflow**
+
+![Deployment Workflow](https://learn.microsoft.com/en-us/azure/architecture/guide/aks/media/aks-cicd-azure-pipelines-architecture.svg#lightbox)
